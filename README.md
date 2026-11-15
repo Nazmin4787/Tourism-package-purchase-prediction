@@ -88,7 +88,6 @@ If one sale earns 10 times what a call costs, calling the **top 30%** finds **92
 | File | Purpose |
 |---|---|
 | `Wellness_Tourism_Package_Prediction.ipynb` | Full documented notebook with plain-language inference |
-| `wellness_features.py` | Builds the combo clues and scores new customers |
 | `Travel.csv` | The data (add it before running) |
 
 ## How to run
@@ -97,8 +96,6 @@ If one sale earns 10 times what a call costs, calling the **top 30%** finds **92
 pip install pandas numpy scikit-learn scipy statsmodels matplotlib seaborn joblib
 jupyter notebook Wellness_Tourism_Package_Prediction.ipynb
 ```
-
-Put `Travel.csv` and `wellness_features.py` in the same folder as the notebook. Results can differ by about 0.01 on another computer or library version.
 
 ## Next steps
 
